@@ -1,8 +1,35 @@
 body {
     background-color: #e6e6e6;
+    font-family: 'Anton', sans-serif;
 }
 
 #navbar {
     background-color: #e6e6e6;
+}
+.nav-logo{
+    width: 32pt;
+    height: 32pt;
+}
+#header-title{
+    font-size: 32pt;
+}
+#subheader-title{
+    font-size:26pt;
+}
+.red-circles{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+}
 
+
+/* Media Query*/
+@media screen and (max-width: 768px){
+    .navbar-brand{
+        display: none;
+    }
 }
