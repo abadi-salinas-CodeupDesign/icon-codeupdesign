@@ -42,7 +42,8 @@
     <!-- Header Container (make row if sizing complications)-->
     <div class="d-flex flex-column">
         <div class="row fs-1 container text-center justify-content-center" id="header-title">VISUAL DESIGN & WEB
-            DEVELOPMENT<!-- Title Row -->
+            DEVELOPMENT
+            <!-- Title Row -->
         </div>
 
 
@@ -51,27 +52,18 @@
         </div>
     </div>
 
-    <div class="row justify-content-center d-flex" id="circle-row"><!-- Circle Row -->
-        <div class="row-md-1"></div>
-        <div class="row-col-sm-12 row-md-5 d-flex justify-content-center">
-            <div id="red-circle"> <!-- Red Circle -->
-                Design
-            </div>
-            <div id="orange-circle"> <!-- Orange Circle -->
-                Develop
-            </div>
-        </div>
-
-        <div class=" row-sm-12 row-md-5 d-flex justify-content-center">
-            <div id="green-circle"> <!-- Green Circle -->
-                Support
-            </div>
-            <div id="blue-circle"> <!-- Blue Circle -->
-                Host
+    <!--   Circle Row -->
+    <section class="m-3">
+        <!--colored circles-->
+        <div class="container text-center m-5">
+            <div class="row row-cols-2 row-cols-md-4 d-lg-flex justify-content-lg-center align-items-lg-center flex-lg-nowrap m-0">
+                <div class="col mx-5 my-md-2"  id="red-circle">DESIGN</div>
+                <div class="col mx-5 my-md-2" id="orange-circle">DEVELOP</div>
+                <div class="col mx-5 my-md-2" id="green-circle">SUPPORT</div>
+                <div class="col mx-5 my-md-2" id="blue-circle">HOST</div>
             </div>
         </div>
-        <div class="row-md-1"></div>
-    </div>
+    </section>
     <!--        close circle container-->
 
 
@@ -81,20 +73,18 @@
     <div class="container main-body"> <!-- Body Container (make row if sizing complications)-->
 
         <div class="row d-flex"> <!-- Row for Body Content -->
-            <div class="row d-flex flex-column"> <!-- New Label Row -->
-                <div class="col flex-end">
+            <div class="row d-flex"> <!-- New Label Row -->
+                <div class="col-md-12 col=lg-8 d-flex justify-content-center">
                     Selected Work
                 </div>
-                <div class="col">
-                    The Last
-                </div>
             </div>
+            <div class="col-lg-8 d-flex justify-content-end ">
 
-            <div class="col d-flex"> <!-- Card Column-->
-
+                <!-- Card Column-->
                 <div class="row flex-column"><!-- Card Row 1 -->
-                    <div class="col"> <!-- Card Column 1-1 -->
-                        <div class="card bg-transparent" style="width: 12rem;">
+
+                    <div class="row justify-content-end " style="margin-top: 2em;"> <!-- Card Column 1-1 -->
+                        <div class="card bg-transparent " style="width: 12rem; margin-top: 1rem;">
                             <img src="images/apple-ipad.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <div class="col d-flex d-grid gap-2 justify-content-center;">
@@ -114,11 +104,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col"> <!-- Card Column 1-2 -->
-                        <div class="card bg-transparent" style="width: 12rem;">
-                            <img src="images/macbook.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="card bg-transparent" style="width: 12rem; margin-top: 1rem;">
+                            <img src="images/man.jpg" class="card-img-top" alt="...">
+                            <div class="card-body ">
                                 <div class="col d-flex d-grid gap-2 justify-content-center">
                                     <span class="small-labels">Featured Project</span>
                                     <div class="circle-sm circ-o">
@@ -139,9 +127,9 @@
                     </div>
                 </div>
                 <div class="row flex-column"> <!-- Card Row 2-->
-                    <div class="col"> <!-- Card Column 2-1 -->
-                        <div class="card bg-transparent" style="width: 12rem;">
-                            <img src="images/man.jpg" class="card-img-top" alt="...">
+                    <div class="row d-flex justify-content-start" style="margin-top: 2em;margin-left: 2em;"> <!-- Card Column 2-1 -->
+                        <div class="card bg-transparent" style="width: 12rem; margin-top: 1rem;">
+                            <img src="images/macbook.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <div class="col d-flex d-grid gap-2 justify-content-center">
                                     <span class="small-labels">Featured Project</span>
@@ -160,9 +148,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col"> <!-- Card Column 2-2 -->
-                        <div class="card bg-transparent" style="width: 12rem;">
+                        <!-- Card Column 2-2 -->
+                        <div class="card bg-transparent" style="width: 12rem; margin-top: 1rem;">
                             <img src="images/security.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <div class="col d-flex d-grid gap-2 justify-content-center">
@@ -186,8 +173,11 @@
                 </div>
             </div>
 
-            <div class="col"> <!-- Side Bar Column -->
-                <div class="row"><!-- Row 1-2 The Admin Bar-->
+            <div class="col d-none d-lg-block d-xl-block"> <!-- Side Bar Column -->
+                <div class="row d-flex justify-content-center" style="margin-top: -15px; margin-bottom: 0;">
+                    The Last
+                </div>
+                <div class="row" style="margin-top: 2em;"><!-- Row 1-2 The Admin Bar-->
                     <div class="card mb-3 bg-transparent" style="max-width: 400px;">
                         <div class="row g-0">
                             <div class="col-md-4">

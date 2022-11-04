@@ -19,8 +19,8 @@ body {
     font-size:26pt;
 }
 #red-circle{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 8px solid white;
     border-radius: 50%;
     display: flex;
@@ -32,8 +32,8 @@ body {
 }
 
 #orange-circle{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 8px solid white;
     border-radius: 50%;
     display: flex;
@@ -45,8 +45,8 @@ body {
 
 }
 #green-circle{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 8px solid white;
     border-radius: 50%;
     display: flex;
@@ -58,8 +58,8 @@ body {
 
 }
 #blue-circle{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 8px solid white;
     border-radius: 50%;
     display: flex;
@@ -71,18 +71,6 @@ body {
 
 }
 
-
-/* Media Query*/
-@media screen and (max-width: 768px){
-    .navbar-brand{
-        display: none;
-    }
-}
-@media screen and (max-width: 768px){
-    #hide-sidebar{
-        display: none;
-    }
-}
 
 
 .circ-o{
@@ -138,3 +126,16 @@ body {
 .small-labels{
     font-size: x-small;
 }
+
+/* Media Query*/
+@media screen and (max-width: 768px){
+    .navbar-brand{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    #hide-sidebar{
+        display: none;
+    }
+}
+
