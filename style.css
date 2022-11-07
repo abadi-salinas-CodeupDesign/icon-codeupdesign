@@ -17,6 +17,7 @@ body {
 }
 #subheader-title{
     font-size:26pt;
+    margin:1em;
 }
 #red-circle{
     height: 150px;
@@ -125,6 +126,7 @@ body {
 
 .small-labels{
     font-size: x-small;
+    font-family: 'Abel', sans-serif;
 }
 
 /* Media Query*/
